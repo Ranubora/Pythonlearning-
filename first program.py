@@ -50,8 +50,8 @@ second = int (input ("enter second:"))
 print("sum =", first + second)
 side = float(input("enter square side:"))
 print("area=", side * side)
-a = float(input("enter first:"))
-b= float(input("enter second:"))
+a = int(input("ener first number:"))
+b= int(input("enter second numbe:"))
 print("avg=", (a+b)/2)
 str1 ="this is a string.\nwe are creating it in python" 
 print(str1)
@@ -122,8 +122,8 @@ elif(marks>=80 and marks< 90):
 elif(marks>=70 and marks< 80):
     print="C"
 else :
-    grade="D"
-print("grade of the student->",grade)
+    print="D"
+print("marks of the student",marks)
             
 marks = int(input("enter student marks :"))
 
@@ -669,6 +669,28 @@ def print_len(ist):
 
     print_len(cities)
     print_len(heros)
+
+ #Functions
+
+ #sum of 2 numbers
+def calc_sum(a,b):
+    sum(a+b)
+    print(sum)
+
+    calc()
+
+
+#avg of 3 number
+def calc_avg(a,b,c):
+    sum =a+b+c
+    avg=sum/3
+    print(avg)
+    return avg
+
+calc_avg(3,2,5)
+#more lines of code
+
+   
     
 
       
