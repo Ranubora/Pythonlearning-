@@ -1,20 +1,19 @@
 #lec = 1
-#Q1
+#Q1.write a program to input 2 numbers and print their sum .
 first =int (input("enter first:"))
 second = int (input ("enter second:"))
 print("sum =", first + second)
 
-#Q2
+#Q2 write a program to input side of square and print its area.
 side = float(input("enter square side:"))
 print("area=", side * side)
 
-#Q3
+#Q3 write a program to input 2 floating point numbers and print their avg.
 a = float(input("enter first:"))
 b= float(input("enter second:"))
 print("avg=", (a+b)/2)
 
-#Q4
-
+#Q4 write a program to input 2 int numbers ,print True if a is greater then or equals to b.If not print False
 a= int(input("enter first :"))
 b= int(input("enter second :"))
 
@@ -31,15 +30,15 @@ print(a>=b)
 #     print("odd") 
 
 #Q2
- a=int(input("enter first number:"))
+a=int(input("enter first number:"))
 # b=int(input("enter second number:"))
 # c=int(input("enter third number:")) 
 # if(a >= b and a>=c):
-#     print("first number is the largest ",a)
-# elif(b >= c):
-     print("enter second number is the largest ",b)
- else:
-    print("third is largest")  
+print("first number is the largest ",a)
+elif(b >= c):
+print("enter second number is the largest ",b)
+else:
+print("third is largest")  
 
 # #Q3
     
